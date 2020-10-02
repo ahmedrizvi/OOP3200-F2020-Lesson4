@@ -92,9 +92,7 @@ std::string Person::ToString()
     output_string += "First Name: " + getFirstName() + "\n";
     output_string += " Last Name: " + getLastName() + "\n";
     output_string += " Age: " + std::to_string(getAge()) + "\n";
-    output_string += "------------------------------------------------\n\n";
+    output_string += "------------------------------------------------\n";
 	
 	return output_string;
 }
-
-
