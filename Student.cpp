@@ -21,7 +21,7 @@
  * @param student_id
  */
 Student::Student(const std::string& first_name, const std::string& last_name, const float age, std::string student_id)
-	: Person(first_name, last_name, age), student_id_(std::move(student_id))
+	: Person(first_name, last_name, age), m_studentID(std::move(student_id))
 {
 
 }
